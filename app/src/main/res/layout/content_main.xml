@@ -4,17 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/barca"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.ericbell.naorapp.MainActivity"
     tools:showIn="@layout/activity_main">
 
     <Button
-        android:id="@+id/btDialog"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="96dp"
-        android:layout_marginLeft="26dp"
-        android:text="DIALOG"
+        android:id="@+id/btBarca"
+        android:layout_width="39dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="28dp"
+      android:background="@mipmap/barcaicon"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="26dp" />
+
+
 </android.support.constraint.ConstraintLayout>
